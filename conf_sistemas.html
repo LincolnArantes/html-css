@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Configuração da Empresa</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      form {
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0 auto;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #888888;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+      }
+      
+      button[type="submit"] {
+        background-color: #008CBA;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #005d80;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Cadastro da Empresa</h1>
+    <form>
+      <label for="empresa">Nome da Empresa:</label>
+      <input type="text" id="empresa" name="empresa" required>
+      
+      <label for="cnpj">CNPJ:</label>
+      <input type="text" id="cnpj" name="cnpj" required>
+      
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+      
+      <label for="numero">Número:</label>
+      <input type="text" id="numero" name="numero" required>
+      
+      <label for="complemento">Complemento:</label>
+      <input type="text" id="complemento" name="complemento">
+      
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro" name="bairro" required>
+      
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+      
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" required>
+      
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required>
+      
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone" required>
+      
+      <label for="celular">Celular:</label>
+      <input type="text" id="celular" name="celular" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="whatsapp">Whatsapp:</label>
+      <input type="text" id="whatsapp" name="whatsapp" required>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html
