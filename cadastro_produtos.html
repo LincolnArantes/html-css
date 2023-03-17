@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Produtos</title>
+    <style>
+      /* Estilos para o formulário */
+      form {
+        margin: 20px auto;
+        width: 600px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"],
+      input[type="tel"],
+      input[type="number"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      textarea {
+        height: 100px;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+   <form>
+  <label for="nome-produto">Nome do Produto:</label>
+  <input type="text" id="nome-produto" name="nome-produto"><br>
+
+ 
+
+ <label for="quantidade-disponivel">Quantidade Disponível:</label>
+  <input type="number" id="quantidade-disponivel" name="quantidade-disponivel"><br>
+
+  
+
+<label for="valor-compra">Valor de Compra:</label>
+  <input type="number" step="0.01" id="valor-compra" name="valor-compra"><br>
+
+  
+
+<label for="valor-venda">Valor de Venda:</label>
+  <input type="number" step="0.01" id="valor-venda" name="valor-venda"><br>
+
+
+
+  <label for="codigo-fornecedor">Código do Fornecedor:</label>
+  <input type="text" id="codigo-fornecedor" name="codigo-fornecedor"><br>
+
+ 
+
+ <label for="codigo-ean">Código EAN:</label>
+  <input type="text" id="codigo-ean" name="codigo-ean"><br>
+
+ 
+
+ <label for="pratileira">Prateleira:</label>
+  <input type="text" id="pratileira" name="pratileira"><br>
+
+ 
+
+ <label for="data-vencimento">Data de Vencimento:</label>
+  <input type="date" id="data-vencimento" name="data-vencimento"><br>
+
+ 
+
+ <label for="observacao">Observação:</label>
+  <textarea id="observacao" name="observacao"></textarea><br>
+
+  
+
+ 
+
+
+  <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
